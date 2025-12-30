@@ -3,11 +3,13 @@ const TRIPS_CONFIG = {
     tripsFolder: 'trips',
     trips: [
         'Hampi Trip',
+        'Ramdevara Betta',
         'Belur Trip',
         'Anjanadri Trip',
-        'Ramdevara Betta',
+        'Nandi Hills',
         'Kotilingeshwara',
         'Mandaragiri Hills'
+        
         
     ]
 };
