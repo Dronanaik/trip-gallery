@@ -2,8 +2,11 @@
 const TRIPS_CONFIG = {
     tripsFolder: 'trips',
     trips: [
-        'Anjanadri Trip',
-        'Belur Trip'
+        'Hampi Trip',
+        'Belur Trip',
+        'Anjanadri Trip'
+        
+        
     ]
 };
 
