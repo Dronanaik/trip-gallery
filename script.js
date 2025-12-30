@@ -7,11 +7,10 @@ const TRIPS_CONFIG = {
         'Belur Trip',
         'Nandi Hills',
         'Anjanadri Trip',
-        
         'Kotilingeshwara',
         'Mandaragiri Hills',
-        'Omkar Hills'
-        
+        'Omkar Hills',
+        'Shivagange Hills'
         
         
     ]
