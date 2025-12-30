@@ -2,6 +2,7 @@
 const TRIPS_CONFIG = {
     tripsFolder: 'trips',
     trips: [
+        'Dandeli Trip',
         'Isha Foundation',
         'Manthralaya Trip - Second Time',
         'Mysore Dussehra',
