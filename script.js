@@ -8,6 +8,7 @@ const TRIPS_CONFIG = {
         'Hampi Trip',
         'Mysore Trip with No Plan clan',
         'Ramdevara Betta',
+        'Mysore Trip With Cosmos',
         'Belur Trip',
         'Nandi Hills',
         'Anjanadri Trip',
