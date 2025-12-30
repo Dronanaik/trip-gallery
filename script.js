@@ -8,6 +8,7 @@ const TRIPS_CONFIG = {
         'Belur Trip',
         'Nandi Hills',
         'Anjanadri Trip',
+        'Manthralaya Trip - First Time',
         'Kotilingeshwara',
         'Mandaragiri Hills',
         'Omkar Hills',
