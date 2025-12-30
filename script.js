@@ -5,10 +5,13 @@ const TRIPS_CONFIG = {
         'Hampi Trip',
         'Ramdevara Betta',
         'Belur Trip',
-        'Anjanadri Trip',
         'Nandi Hills',
+        'Anjanadri Trip',
+        
         'Kotilingeshwara',
-        'Mandaragiri Hills'
+        'Mandaragiri Hills',
+        'Omkar Hills'
+        
         
         
     ]
