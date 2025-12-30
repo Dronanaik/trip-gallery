@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern trip gallery showcasing memorable adventures">
+    <title>Trip Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <span class="logo-icon">✈️</span>
+                Trip Gallery
+            </h1>
+            <nav class="nav">
+                <button class="nav-btn active" data-view="trips">All Trips</button>
+                <button class="nav-btn" data-view="about">About</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Trips View -->
+            <section id="trips-view" class="view active">
+                <div class="section-header">
+                    <h2 class="section-title">My Adventures</h2>
+                    <p class="section-subtitle">Explore the memories from amazing trips</p>
+                </div>
+                <div id="trips-grid" class="trips-grid">
+                    <!-- Trip cards will be dynamically loaded here -->
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Loading trips...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About View -->
+            <section id="about-view" class="view">
+                <div class="about-card glass-card">
+                    <h2>About This Gallery</h2>
+                    <p>Welcome to my trip gallery! This is a collection of memories from various adventures around the Karnataka. Each trip folder contains photos and details about the journey.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">📸</span>
+                            <h3>Photo Collections</h3>
+                            <p>Organized trip-wise galleries</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🗺️</span>
+                            <h3>Trip Details</h3>
+                            <p>Dates, locations, and companions</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery View (for individual trip) -->
+            <section id="gallery-view" class="view">
+                <button id="back-btn" class="back-btn glass-card">
+                    <span>←</span> Back to Trips
+                </button>
+                <div id="gallery-header" class="gallery-header">
+                    <!-- Trip details will be loaded here -->
+                </div>
+                <div id="images-grid" class="images-grid">
+                    <!-- Images will be dynamically loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-prev">‹</button>
+        <button class="lightbox-next">›</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Full size image">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Trip Gallery. Built with ❤️ by Drona</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
