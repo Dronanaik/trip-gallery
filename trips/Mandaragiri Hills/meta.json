@@ -1,0 +1,23 @@
+{
+  "trip_name": "Mandaragiri Hills",
+  "date": "30th December, 2023",
+  "members": [
+    "Drona",
+    "Soumya",
+    "Pavan",
+    "Prathima",
+    "Basavaraj",
+    "Praveen",
+    "Bhuvana"
+  ],
+  "cover": "cover.jpg",
+  "images": [
+    "IMG_20231230_113952856.jpg",
+    "IMG_20231230_113958673_HDR.jpg",
+    "IMG_20231230_120626872.jpg",
+    "IMG_20231230_121247970_HDR.jpg",
+    "IMG_20231230_122551015_HDR.jpg",
+    "IMG_20231230_122603141_HDR.jpg",
+    "IMG_20231230_122608789_HDR.jpg"
+  ]
+}

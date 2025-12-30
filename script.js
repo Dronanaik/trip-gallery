@@ -4,8 +4,10 @@ const TRIPS_CONFIG = {
     trips: [
         'Hampi Trip',
         'Belur Trip',
-        'Anjanadri Trip'
-        
+        'Anjanadri Trip',
+        'Ramdevara Betta',
+        'Kotilingeshwara',
+        'Mandaragiri Hills'
         
     ]
 };
@@ -171,9 +173,7 @@ function createTripCard(trip) {
     const card = document.createElement('div');
     card.className = 'trip-card glass-card';
 
-    const coverImage = trip.images.length > 0
-        ? trip.images[0]
-        : `${TRIPS_CONFIG.tripsFolder}/${trip.folder}/${trip.meta.cover}`;
+    const coverImage =`${TRIPS_CONFIG.tripsFolder}/${trip.folder}/${trip.meta.cover}`;
 
     card.innerHTML = `
         <img src="${coverImage}" alt="${trip.meta.trip_name}" class="trip-card-image" loading="lazy">
