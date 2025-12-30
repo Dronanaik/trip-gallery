@@ -3,9 +3,10 @@ const TRIPS_CONFIG = {
     tripsFolder: 'trips',
     trips: [
         'Isha Foundation',
-        "Manthralaya Trip - Second Time",
-        "Mysore Dussehra",
+        'Manthralaya Trip - Second Time',
+        'Mysore Dussehra',
         'Hampi Trip',
+        'Mysore Trip with No Plan clan',
         'Ramdevara Betta',
         'Belur Trip',
         'Nandi Hills',
@@ -15,8 +16,8 @@ const TRIPS_CONFIG = {
         'Mandaragiri Hills',
         'Omkar Hills',
         'Shivagange Hills'
-        
-        
+
+
     ]
 };
 
@@ -133,7 +134,7 @@ async function getTripImages(tripFolder, meta) {
     }
 
     // Try to load images with common naming patterns
-    for (let i = 1; i <= 20; i++) {
+    for (let i = 1; i <= 50; i++) {
         for (const ext of imageExtensions) {
             const imagePath = `${TRIPS_CONFIG.tripsFolder}/${tripFolder}/img${i}.${ext}`;
             if (await imageExists(imagePath)) {
@@ -181,7 +182,7 @@ function createTripCard(trip) {
     const card = document.createElement('div');
     card.className = 'trip-card glass-card';
 
-    const coverImage =`${TRIPS_CONFIG.tripsFolder}/${trip.folder}/${trip.meta.cover}`;
+    const coverImage = `${TRIPS_CONFIG.tripsFolder}/${trip.folder}/${trip.meta.cover}`;
 
     card.innerHTML = `
         <img src="${coverImage}" alt="${trip.meta.trip_name}" class="trip-card-image" loading="lazy">
