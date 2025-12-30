@@ -4,6 +4,7 @@ const TRIPS_CONFIG = {
     trips: [
         'Isha Foundation',
         "Manthralaya Trip - Second Time",
+        "Mysore Dussehra",
         'Hampi Trip',
         'Ramdevara Betta',
         'Belur Trip',
